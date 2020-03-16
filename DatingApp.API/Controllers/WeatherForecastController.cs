@@ -8,9 +8,7 @@ using DatingApp.API.Models;
 
 namespace DatingApp.API.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController
     {
         private static readonly string[] Summaries = new[]
         {
